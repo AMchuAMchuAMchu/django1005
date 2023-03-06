@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>😂😂😂😂😂😂</title>
+</head>
+<style>
+    tb, th, td {
+        border: solid 3px aqua;
+    }
+
+</style>
+<body>
+<h1>yukino-雪乃-雪之下雪乃-冰雪女王😯😯😯</h1>
+<h1>yukino-雪乃-雪之下雪乃-冰雪女王😂😂😂</h1>
+<h1>yukino-雪乃-雪之下雪乃-冰雪女王🎃🎃🎃</h1>
+<form action="/" method="post">
+    用户名:<input type="text" name="username">
+    密&emsp;码:<input type="password" name="password">
+    <button type="submit">提交</button>
+</form>
+<hr>
+<table>
+    <tr>
+        <th>名字</th>
+        <th>密码</th>
+    </tr>
+    {% for item in data %}
+        <tr>
+            <td>{{ item.username }}</td>
+            <td>{{ item.password }}</td>
+        </tr>
+
+    {% endfor %}
+</table>
+</body>
+</html>
